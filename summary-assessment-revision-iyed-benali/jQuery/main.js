@@ -1,5 +1,5 @@
 $(function() {
-var count = ($('.count').text())
+var count =  parseInt(($('.count').text()))
 
 console.log(typeof count)
 console.log(count ++ )
